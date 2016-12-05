@@ -5,6 +5,8 @@
 	<title>Barber Cloud</title>
 
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style.css'); ?>">
+	<script type="text/javascript" src="<?php echo base_url('assets/js/jquery-3.1.1.min.js'); ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/login.js'); ?>"></script>
 </head>
 <body>
 	<header>
@@ -28,16 +30,16 @@
 
 			<div class="campo">
 				<label for="txtEmail">Email</label>
-				<input type="email" name="txtEmail" class="input input-login">	
+				<input type="email" name="txtEmail" class="input input-login" id="txtEmail">	
 			</div>
 			
 			<div class="campo">
 				<label for="txtPassword">Password</label>
-				<input type="password" name="txtPassword" class="input input-login">	
+				<input type="password" name="txtPassword" class="input input-login" id="textPassword">	
 			</div>
 			
 			<div class="campo">
-				<input type="submit" name="btnLogin" value="Ingresar" class="btn btn-login">	
+				<input type="submit" name="btnLogin" value="Ingresar" class="btn btn-login" id="btn-login">	
 			</div>
 			
 		</form>
