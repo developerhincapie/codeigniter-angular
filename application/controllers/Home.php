@@ -8,6 +8,6 @@ class Home extends CI_Controller {
 	}
 	
 	public function index(){
-		echo 'Hola Mundo!';
+		$this->load->view('home/index_view');
 	}
 }
